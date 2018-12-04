@@ -1,5 +1,0 @@
-class Integer
-  @@happysteps = Hash.new{ |k, v| k[v] = {} }
-  def happy?( base = 10 )
-  seen = {}
-  
